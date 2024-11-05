@@ -1,3 +1,9 @@
+# mail_streamer/models.py
+
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-# Create your models here.
+
+class CustomUser(AbstractUser):
+    # Добавьте дополнительные поля по мере необходимости
+    pass
